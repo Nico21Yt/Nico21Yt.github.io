@@ -1,7 +1,7 @@
 main:
 
   - title: Predictive Dynamic Fusion
-    authors: Bing Cao, Yinan Xia*, <strong>Yi Ding*</strong>, Changqing Zhang, Qinghua Hu
+    authors: Bing Cao, Yinan Xia*, <strong>Yi Ding*</strong>, Changqing Zhang†, Qinghua Hu†
     conference_short: ICML
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2024.
     # pdf: https://arxiv.org/pdf/2306.00988.pdf
