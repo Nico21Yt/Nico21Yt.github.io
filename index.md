@@ -10,7 +10,7 @@ Currently I am a research assistant in the MLDM Lab Multimodal Vision Processing
 
 In my spare time, I am very passionate about digital and film photography. In addition to this, I also enjoy making coffee, whether it is hand-poured or espresso. If you share the same interest, I welcome you to exchange ideas with me!
 
-<font color=FireBrick>I'm looking for PhD opportunities at 25 Fall!!!</font>
+🔥🔥🔥**<font color=FireBrick>I'm looking for PhD opportunities at 25 Fall!!!</font>**🔥🔥🔥
 
 
 ## News
