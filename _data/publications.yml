@@ -9,3 +9,13 @@ main:
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/Predictive_Dynamic_Fusion.png
     notes: Co-First Student Author
+
+    - title: Test-Time Dynamic Image Fusion
+    authors: Bing Cao, Yinan Xia*, <strong>Yi Ding*</strong>, Changqing Zhang, Qinghua Hu (*Equal Contribution)
+    conference_short: Under Review
+    conference: Under Review
+    # pdf: https://arxiv.org/pdf/2306.00988.pdf
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/TTD.png
+    notes: Co-First Student Author
