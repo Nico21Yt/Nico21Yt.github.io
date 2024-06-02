@@ -10,7 +10,7 @@ main:
     image: ./assets/img/Predictive_Dynamic_Fusion.png
     notes: Co-First Student Author
 
-    - title: Test-Time Dynamic Image Fusion
+  - title: Test-Time Dynamic Image Fusion
     authors: Bing Cao, Yinan Xia*, <strong>Yi Ding*</strong>, Changqing Zhang, Qinghua Hu (*Equal Contribution)
     conference_short: Under Review
     conference: Under Review
