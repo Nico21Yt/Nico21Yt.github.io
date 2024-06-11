@@ -4,7 +4,7 @@ main:
     authors: Bing Cao, Yinan Xia*, <strong>Yi Ding*</strong>, Changqing Zhang†, Qinghua Hu†
     conference_short: ICML
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2024.
-    pdf: https://github.com/Yinan-Xia/PDF
+    pdf: https://arxiv.org/pdf/2406.04802
     code: https://github.com/Yinan-Xia/PDF
     bibtex: https://github.com/Yinan-Xia/PDF
     image: ./assets/img/Predictive_Dynamic_Fusion.png
