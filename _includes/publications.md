@@ -41,6 +41,9 @@
     {% if link.others %} 
     {{ link.others }}
     {% endif %}
+    <div id="abstract-{{ link.id }}" class="abstract-section" style="display:none;">
+      <p>{{ link.abstract }}</p>
+    </div>
   </div>
 </div>
 </li>
