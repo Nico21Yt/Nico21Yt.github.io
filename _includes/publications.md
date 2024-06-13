@@ -22,6 +22,10 @@
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
+    <button onclick="toggleAbstract('{{ link.id }}')" class="btn btn-sm z-depth-0" role="button" style="font-size:12px;">Abstract</button>
+    <div id="abstract-{{ link.id }}" style="display:none; margin-top: 10px;">
+      <p>{{ link.abstract }}</p>
+    </div>
     <div class="links">
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
@@ -52,4 +56,15 @@
 
 </ol>
 </div>
+
+<script>
+  function toggleAbstract(id) {
+    var abstractDiv = document.getElementById('abstract-' + id);
+    if (abstractDiv.style.display === 'none') {
+      abstractDiv.style.display = 'block';
+    } else {
+      abstractDiv.style.display = 'none';
+    }
+  }
+</script>
 
