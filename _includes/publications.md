@@ -22,6 +22,7 @@
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
+      <button onclick="toggleAbstract('{{ link.id }}')" class="btn btn-sm z-depth-0 link-btn" role="button">Abstract</button>
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0 link-btn" role="button" target="_blank">PDF</a>
       {% endif %}
@@ -34,7 +35,6 @@
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0 link-btn" role="button" target="_blank">BibTex</a>
       {% endif %}
-      <button onclick="toggleAbstract('{{ link.id }}')" class="btn btn-sm z-depth-0 link-btn" role="button">Abstract</button>
     </div>
     {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
