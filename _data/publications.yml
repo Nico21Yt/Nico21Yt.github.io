@@ -15,7 +15,7 @@ main:
     authors: Bing Cao, Yinan Xia*, <strong>Yi Ding*</strong>, Changqing Zhang, Qinghua Hu
     conference_short: Under Review
     conference: Under Review
-    abstract:
+    # abstract:
     # pdf: https://arxiv.org/pdf/2306.00988.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
