@@ -21,8 +21,7 @@
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
-    <div class="links" style="display: flex; gap: 5px; flex-wrap: wrap;">
-      <button onclick="toggleAbstract('{{ link.id }}')" class="btn btn-sm z-depth-0 link-btn" role="button">Abstract</button>
+    <div class="links">
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0 link-btn" role="button" target="_blank">PDF</a>
       {% endif %}
@@ -35,7 +34,7 @@
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0 link-btn" role="button" target="_blank">BibTex</a>
       {% endif %}
-      
+      <button onclick="toggleAbstract('{{ link.id }}')" class="btn btn-sm z-depth-0 link-btn" role="button">Abstract</button>
     </div>
     {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
@@ -43,7 +42,7 @@
     {% if link.others %} 
       {{ link.others }}
     {% endif %}
-    <div id="abstract-{{ link.id }}" style="display:none; margin-top: 10px;">
+    <div id="abstract-{{ link.id }}" class="abstract-section">
       <p>{{ link.abstract }}</p>
     </div>
   </div>
@@ -60,7 +59,7 @@
 <script>
   function toggleAbstract(id) {
     var abstractDiv = document.getElementById('abstract-' + id);
-    if (abstractDiv.style.display === 'none') {
+    if (abstractDiv.style.display === 'none' || abstractDiv.style.display === '') {
       abstractDiv.style.display = 'block';
     } else {
       abstractDiv.style.display = 'none';
