@@ -172,3 +172,26 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .fakelink { text-decoration: none; cursor: pointer; }
 
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
+.link-btn {
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #000; /* 按钮文字颜色 */
+  box-sizing: border-box; /* 确保内边距和边框包含在元素的总宽度和高度内 */
+}
+
+.link-btn:hover {
+  background-color: #e9ecef;
+}
+
+.links {
+  display: flex; /* 使链接在同一行 */
+  gap: 5px; /* 设置按钮之间的间距 */
+  flex-wrap: wrap; /* 当空间不足时，按钮自动换行 */
+}
