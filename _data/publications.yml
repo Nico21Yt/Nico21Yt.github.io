@@ -12,7 +12,8 @@ main:
     notes: Co-First Student Author
 
   - title: Test-Time Dynamic Image Fusion
-    authors: Bing Cao, Yinan Xia*, <strong>Yi Ding*</strong>, Changqing Zhang, Qinghua Hu
+    # authors: Bing Cao, Yinan Xia*, <strong>Yi Ding*</strong>, Changqing Zhang, Qinghua Hu
+    authors: Anonynous Authors
     conference_short: Under Review
     conference: Under Review
     # abstract:
