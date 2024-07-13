@@ -21,4 +21,4 @@ main:
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/TTD.png
-    notes: Co-First Student Author
+    # notes: Co-First Student Author
