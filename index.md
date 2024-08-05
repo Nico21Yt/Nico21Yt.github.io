@@ -13,7 +13,7 @@ In my spare time, I am very passionate about photography and roadbike cycling. I
 **<font color=FireBrick>I'm looking for longtime research assistant and hope to pursuePursued PHD in the fall of '26. If you share the same research interests with me, you are welcome to contact me.
 
 ## News
-- **[Jul. 2024]** Graduated  with **First Class honors** from University of Liverpool & Xi'An Jiaotong Liverpool University. Happy Graduation!!!
+- **[Jul. 2024]** Graduated  with **First Class honors** from University of Liverpool & Xi'An Jiaotong-Liverpool University. Happy Graduation!!!
 
 
 {% include_relative _includes/publications.md %}
