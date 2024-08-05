@@ -15,12 +15,12 @@ canonical: https://minimal-light-theme.yliu.me/
 #google_scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=KywyOjkAAAAJ
 cv_link: assets/files/CV_Ding Yi.pdf
 github_link: https://github.com/Nico21Yt
-#linkedin: https://www.linkedin.com/
+linkedin: https://www.linkedin.com/in/yitaoxu20/
 #twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/yi_photo.jpg
+avatar: ./assets/img/证件照.jpg
 favicon: ./assets/img/android-chrome-512x512.png
 favicon_dark: ./assets/img/android-chrome-512x512.png
 
