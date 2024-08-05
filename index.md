@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi! I'm a first year master student from **[School of School of Electrical and Computer Engineering](https://ece.gatech.edu/), [Georgia Institute of Technology](https://www.gatech.edu/)**. My research interests primarily focus on **<font color=FireBrick>Multimodal Fusion& Alignment, Trustworthy LLMs, etc</font>**.
+Hi! I'm a first year master student from **[School of School of Electrical and Computer Engineering](https://ece.gatech.edu/), [Georgia Institute of Technology](https://www.gatech.edu/)**. Before that, I graduated from the University of Liverpool with a bachelor's degree in Computer Science. My research interests primarily focus on **<font color=FireBrick>Multimodal Fusion& Alignment, Trustworthy LLMs, etc</font>**.
 
 I completed my undergraduate thesis and conducted related research on **<font color=FireBrick>alignment in multimodal sentiment analysis</font>** under the supervision of Dr. [Fangyu Wu](https://scholar.xjtlu.edu.cn/en/persons/FangyuWu02). Prior to that, I conducted research on **<font color=FireBrick>multimodal representation learning</font>** under the guidance of Dr. [Lu Zong](https://scholar.xjtlu.edu.cn/en/persons/LuZong) from the Department of Mathematics.
 
