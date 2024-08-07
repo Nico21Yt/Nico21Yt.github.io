@@ -1,24 +1,56 @@
 main:
 
-  - title: Predictive Dynamic Fusion
-    authors: Bing Cao, Yinan Xia*, <strong>Yi Ding*</strong>, Changqing Zhang†, Qinghua Hu†
-    conference_short: ICML
-    conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2024.
-    abstract: Multimodal fusion is crucial in joint decision-making systems for rendering holistic judgments. Since multimodal data changes in open environments, dynamic fusion has emerged and achieved remarkable progress in numerous applications. However, most existing dynamic multimodal fusion methods lack theoretical guarantees and easily fall into suboptimal problems, yielding unreliability and instability. To address this issue, we propose a Predictive Dynamic Fusion (PDF) framework for multimodal learning. We proceed to reveal the multimodal fusion from a generalization perspective and theoretically derive the predictable Collaborative Belief (Co-Belief) with Mono- and Holo-Confidence, which provably reduces the upper bound of generalization error. Accordingly, we further propose a relative calibration strategy to calibrate the predicted Co-Belief for potential uncertainty. Extensive experiments on multiple benchmarks confirm our superiority. Our code is available at https://github.com/Yinan-Xia/PDF.
-    pdf: https://arxiv.org/pdf/2406.04802
-    code: https://github.com/Yinan-Xia/PDF
-    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:7koiDcHQJuwJ:scholar.google.com/&output=citation&scisdr=ClE_r7TfEKTG19lGGCM:AFWwaeYAAAAAZnFAACN5VErBEz-NQ26VMQxwlC4&scisig=AFWwaeYAAAAAZnFAAJk9PgExYY0mQdtg64Ss3AE&scisf=4&ct=citation&cd=-1&hl=en
-    image: ./assets/img/Predictive_Dynamic_Fusion.png
-    notes: Co-First Student Author
+  - title: Context-Enhanced Multimodal Sentiment Analysis: Multi-Granular Alternative Telescopic Displacement
+    authors: Jiahao Qin, Yitao Xu, Zong∗, Lu Feng Liu∗∗
+    conference_short: In submission
+    conference: In submission to Information Fusion (Journal)
+    # abstract: #
+    # pdf: #
+    # code: #
+    # bibtex: #
+    # image: #
+    # notes: #
 
-  - title: Test-Time Dynamic Image Fusion
-    # authors: Bing Cao, Yinan Xia*, <strong>Yi Ding*</strong>, Changqing Zhang, Qinghua Hu
-    authors: Anonynous Authors
-    conference_short: Under Review
-    conference: Under Review
-    # abstract:
-    # pdf: https://arxiv.org/pdf/2306.00988.pdf
-    # code: https://github.com/MrGiovanni/ContinualLearning
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/TTD.png
-    # notes: Co-First Student Author
+  - title: Challenging Data Normalization in Multimodal Sentiment Analysis: An Empirical Study on the MOSI and MOSEI Datasets
+    authors: Jiahao Qin, Yitao Xu, Lu Zong∗
+    conference_short: In submission
+    conference: In submission to AAAI 2025
+    # abstract: #
+    # pdf: #
+    # code: #
+    # bibtex: #
+    # image: #
+    # notes: #
+
+  - title: MTSA-SNN: A Multi-modal Time Series Analysis Model Based on Spiking Neural Network
+    authors: Chengzhi Liu, Chenghao Liu, Zheng Tao, Zihong Luo, Yitao Xu*
+    conference_short: ICPR
+    conference: International Conference on Pattern Recognition
+    # abstract: #
+    # pdf: #
+    # code: #
+    # bibtex: #
+    # image: #
+    # notes: #
+
+  - title: MC-DBN: A Deep Belief Network-Based Model for Modality Completion
+    authors: Zihong Luo∗, Chengzhi Liu, Zheng Tao, Kexin He, Yitao Xu
+    conference_short: In submission
+    conference: In submission to International Conference on Neural Information Processing
+    # abstract: #
+    # pdf: #
+    # code: #
+    # bibtex: #
+    # image: #
+    # notes: #
+
+  - title: Multimodal Deep Learning for Enhanced Arrhythmia Detection Using ECG Time Series and Image Data
+    authors: Yitao Xu, Jiahao Qin∗, Zihong Luo, Zhengxu Jing, Bihao You
+    conference_short: CyberC
+    conference: IEEE International Conference on Cyber-enabled Distributed Computing and Knowledge Discovery
+    # abstract: #
+    # pdf: #
+    # code: #
+    # bibtex: #
+    # image: #
+    # notes: #
