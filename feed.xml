@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <link href="https://Nico21Yt.github.io/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://Nico21Yt.github.io/" rel="alternate" type="text/html" hreflang="en" />
+  <updated>2026-04-17T00:00:00+00:00</updated>
+  <id>https://Nico21Yt.github.io/feed.xml</id>
+  <title type="html">Yitao Xu 徐奕涛</title>
+  <subtitle>Master student at Georgia Tech focusing on multimodal fusion and trustworthy LLMs.</subtitle>
+</feed>

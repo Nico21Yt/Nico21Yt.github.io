@@ -1,0 +1,25 @@
+:root {
+  --custom-link-color: #005239;
+}
+
+a,
+a:visited,
+table.table a,
+.post a,
+.news a,
+.nav-link,
+.contact-icons a {
+  color: var(--custom-link-color) !important;
+}
+
+a:hover,
+a:focus,
+a:active,
+table.table a:hover,
+.post a:hover,
+.news a:hover,
+.nav-link:hover,
+.contact-icons a:hover {
+  color: var(--custom-link-color) !important;
+  text-decoration: underline;
+}
