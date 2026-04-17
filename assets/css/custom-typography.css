@@ -139,7 +139,15 @@ h6,
   background: transparent;
 }
 
+.home-news-scroll + .home-section {
+  margin-top: 1.4rem;
+}
+
 .home-news-scroll .news-line {
+  display: grid;
+  grid-template-columns: 9rem 1fr;
+  column-gap: 0.6rem;
+  align-items: start;
   margin: 0 0 0.85rem 0;
   line-height: 1.7;
   font-size: 1.15rem;
@@ -150,10 +158,13 @@ h6,
 }
 
 .home-news-scroll .news-date {
-  display: inline;
+  display: block;
   font-weight: 600;
-  margin-right: 0.55rem;
   white-space: nowrap;
+}
+
+.home-news-scroll .news-text {
+  display: block;
 }
 
 .home-news-scroll::-webkit-scrollbar {
@@ -182,4 +193,5 @@ h6,
   .edu-logo { width: 44px; height: 44px; }
   .home-section-title { font-size: 1rem; }
   .home-news-scroll .news-line { font-size: 1rem; line-height: 1.65; }
+  .home-news-scroll .news-line { grid-template-columns: 7.2rem 1fr; }
 }
