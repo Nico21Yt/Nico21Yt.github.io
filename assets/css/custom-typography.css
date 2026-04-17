@@ -132,6 +132,48 @@ h6,
   margin: 0.25rem 0 1rem 0;
 }
 
+.home-news-scroll {
+  max-height: 10.2em;
+  overflow-y: auto;
+  padding-right: 0.45rem;
+  background: transparent;
+}
+
+.home-news-scroll .news-line {
+  margin: 0 0 0.85rem 0;
+  line-height: 1.7;
+  font-size: 1.15rem;
+}
+
+.home-news-scroll .news-line:last-child {
+  margin-bottom: 0;
+}
+
+.home-news-scroll .news-date {
+  display: inline;
+  font-weight: 600;
+  margin-right: 0.55rem;
+  white-space: nowrap;
+}
+
+.home-news-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.home-news-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.home-news-scroll::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 999px;
+}
+
+.home-news-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.22) transparent;
+}
+
 @media (max-width: 768px) {
   .edu-school { font-size: 1rem; }
   .edu-degree { font-size: 0.92rem; }
@@ -139,4 +181,5 @@ h6,
   .edu-note { font-size: 0.85rem; }
   .edu-logo { width: 44px; height: 44px; }
   .home-section-title { font-size: 1rem; }
+  .home-news-scroll .news-line { font-size: 1rem; line-height: 1.65; }
 }
