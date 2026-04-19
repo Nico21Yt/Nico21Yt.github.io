@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="/assets/libs/mdb/mdb.min.css">
     <link defer rel="stylesheet" type="text/css" href="/assets/libs/google_fonts/google-fonts.css">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/custom-typography.css">
-    <link rel="stylesheet" href="/assets/css/custom-link-color.css">
+    <link rel="stylesheet" href="/assets/css/custom-typography.css?v=20260417">
+    <link rel="stylesheet" href="/assets/css/custom-link-color.css?v=20260417">
     <script src="/assets/js/theme.js"></script>
     <script>initTheme();</script>
   </head>
@@ -21,7 +21,6 @@
     <header>
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
         <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Yitao Xu <span class="name-zh">徐奕涛</span></span></a>
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="icon-bar top-bar"></span>
             <span class="icon-bar middle-bar"></span>
@@ -30,6 +29,14 @@
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
               <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="/misc/">Misc</a></li>
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                  <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                  <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+                </button>
+              </li>
             </ul>
           </div>
         </div>
