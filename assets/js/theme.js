@@ -84,12 +84,18 @@ let applyTheme = () => {
 };
 
 let setHighlight = (theme) => {
+  const highlightThemeLight = document.getElementById("highlight_theme_light");
+  const highlightThemeDark = document.getElementById("highlight_theme_dark");
+  if (!highlightThemeLight || !highlightThemeDark) {
+    return;
+  }
+
   if (theme == "dark") {
-    document.getElementById("highlight_theme_light").media = "none";
-    document.getElementById("highlight_theme_dark").media = "";
+    highlightThemeLight.media = "none";
+    highlightThemeDark.media = "";
   } else {
-    document.getElementById("highlight_theme_dark").media = "none";
-    document.getElementById("highlight_theme_light").media = "";
+    highlightThemeDark.media = "none";
+    highlightThemeLight.media = "";
   }
 };
 
