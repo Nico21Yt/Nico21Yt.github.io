@@ -158,6 +158,34 @@ h6,
   margin-top: 1.4rem;
 }
 
+.home-service-list + .home-section {
+  margin-top: 1.4rem;
+}
+
+.home-service-list .news-line {
+  display: grid;
+  grid-template-columns: 7.2rem 1fr;
+  column-gap: 0.35rem;
+  align-items: start;
+  margin: 0 0 0.85rem 0;
+  line-height: 1.65;
+  font-size: 1rem;
+}
+
+.home-service-list .news-line:last-child {
+  margin-bottom: 0;
+}
+
+.home-service-list .news-date {
+  display: block;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.home-service-list .news-text {
+  display: block;
+}
+
 .home-news-scroll .news-line {
   display: grid;
   grid-template-columns: 7.2rem 1fr;
@@ -208,4 +236,5 @@ h6,
   .edu-logo { width: 44px; height: 44px; }
   .home-section-title { font-size: 1rem; }
   .home-news-scroll .news-line { grid-template-columns: 6.5rem 1fr; column-gap: 0.28rem; }
+  .home-service-list .news-line { grid-template-columns: 6.5rem 1fr; column-gap: 0.28rem; }
 }
