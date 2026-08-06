@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Yitao Xu's personal website</title>
     <meta name="author" content="Yitao Xu 徐奕涛">
-    <meta name="description" content="Publication list for Yitao Xu.">
-    <meta name="keywords" content="Yitao Xu, publications">
+    <meta name="description" content="Reading list for Yitao Xu.">
+    <meta name="keywords" content="Yitao Xu, reading list">
     <link rel="shortcut icon" href="/assets/img/logo.svg">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/libs/mdb/mdb.min.css">
@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/custom-typography.css?v=20260417">
     <link rel="stylesheet" href="/assets/css/custom-link-color.css?v=20260417">
-    <link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css">
+    <script src="/assets/js/theme.js"></script>
+    <script>initTheme();</script>
   </head>
   <body class="fixed-top-nav">
     <header>
@@ -28,9 +29,16 @@
           </button>
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
-              <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="/reading/">Reading</a></li>
+              <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+              <li class="nav-item active"><a class="nav-link" href="/reading/">Reading</a></li>
               <li class="nav-item"><a class="nav-link" href="/misc/">Misc</a></li>
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                  <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                  <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+                </button>
+              </li>
             </ul>
           </div>
         </div>
@@ -40,30 +48,39 @@
     <div class="container mt-5" role="main">
       <div class="post">
         <header class="post-header">
-          <h1 class="post-title">Publications</h1>
-          <p class="post-description">Publications by categories in reversed chronological order.</p>
+          <h1 class="post-title">Reading</h1>
         </header>
         <article>
-          <div class="publications">
-            <h2 class="bibliography">TODO</h2>
-            <ol class="bibliography">
-              <li>
-                <div class="row">
-                  <div class="col-sm-12">
-                    <div class="title">TODO: Add publications from your current source of truth.</div>
-                    <div class="author">TODO: Add full author list and links.</div>
-                    <div class="periodical">TODO: Add venue/year and artifact links (PDF/Code/Project).</div>
-                  </div>
-                </div>
-              </li>
-            </ol>
+          <p>
+            A personal to-read list of papers and dissertations.
+            I add new entries here as I come across things I want to read.
+          </p>
+
+          <div class="home-section">
+            <div class="home-section-title">To Read</div>
+            <hr class="home-divider">
           </div>
+
+          <ul class="reading-list">
+            <li style="margin-bottom: 1rem;">
+              <div>
+                <a href="https://zen-wu.social/pdf/zen_phd_dissertation.pdf#page=219.76" rel="external nofollow noopener" target="_blank">Mechanistic Interpretability and Control for Language Models</a>
+              </div>
+              <div class="edu-meta">PhD Dissertation &middot; Zhengxuan Wu &middot; Stanford, 2026</div>
+            </li>
+            <li style="margin-bottom: 1rem;">
+              <div>
+                <a href="https://arxiv.org/abs/2601.21996" rel="external nofollow noopener" target="_blank">Mechanistic Data Attribution: Tracing the Training Origins of Interpretable LLM Units</a>
+              </div>
+              <div class="edu-meta">arXiv 2601.21996 &middot; Jianhui Chen, Yuzhang Luo, Liangming Pan</div>
+            </li>
+          </ul>
         </article>
       </div>
     </div>
 
     <footer class="fixed-bottom" role="contentinfo">
-      <div class="container mt-0">© Copyright 2026 Yitao Xu <span class="name-zh">徐奕涛</span>.</div>
+      <div class="container mt-0">© Copyright 2026 Yitao Xu.</div>
     </footer>
     <script src="/assets/libs/jquery/jquery.min.js"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
