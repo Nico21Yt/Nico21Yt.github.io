@@ -213,9 +213,9 @@ h6,
 }
 
 .home-news-scroll {
-  max-height: 10.2em;
-  overflow-y: auto;
-  padding-right: 0.45rem;
+  max-height: none;
+  overflow: visible;
+  padding-right: 0;
   background: transparent;
 }
 
@@ -259,24 +259,6 @@ h6,
 
 .home-news-scroll .news-text {
   display: block;
-}
-
-.home-news-scroll::-webkit-scrollbar {
-  width: 6px;
-}
-
-.home-news-scroll::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.home-news-scroll::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.22);
-  border-radius: 999px;
-}
-
-.home-news-scroll {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.22) transparent;
 }
 
 @media (max-width: 768px) {
