@@ -1,23 +1,66 @@
 html,
 body {
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif, SimSun, "Songti SC", "Microsoft YaHei";
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.65;
+  line-height: 1.6;
+  color: #000;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
   text-rendering: optimizeLegibility;
 }
 
+/* Sticky nav: stays in document flow, but always in front while scrolling */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+
+#navbar.navbar {
+  position: relative;
+  top: auto;
+  background-color: #fff;
+  opacity: 1;
+}
+
+#navbar .navbar-brand {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif, SimSun, "Songti SC", "Microsoft YaHei";
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #000 !important;
+  margin-right: 1rem;
+  white-space: nowrap;
+}
+
+#navbar .navbar-brand .name-zh {
+  font-weight: 500;
+  margin-left: 0.05em;
+}
+
 p,
 li,
 td,
-th {
+th,
+.nav-link,
+.news-text,
+.edu-school,
+.edu-degree,
+.edu-meta,
+.edu-note,
+.service-line,
+.title,
+.author,
+.periodical,
+.links {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif, SimSun, "Songti SC", "Microsoft YaHei";
   font-weight: 400;
-  line-height: 1.65;
+  line-height: 1.6;
 }
 
 .post p {
   margin-bottom: 0.95rem;
+  line-height: 1.6;
 }
 
 .post {
@@ -33,13 +76,13 @@ h4,
 h5,
 h6,
 .post-title {
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
-  font-weight: 400 !important;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif, SimSun, "Songti SC", "Microsoft YaHei";
+  font-weight: 700 !important;
 }
 
 .post-title .font-weight-bold,
 .navbar-brand .font-weight-bold {
-  font-weight: 400 !important;
+  font-weight: 700 !important;
 }
 
 .name-zh {
@@ -62,8 +105,12 @@ h6,
   margin-top: 0.25rem;
 }
 
-.home-name-header {
-  margin-bottom: 2rem;
+.about-section {
+  margin-top: 0;
+}
+
+.about-section .home-section-title {
+  padding-top: 0.25rem;
 }
 
 @media (max-width: 768px) {
@@ -79,16 +126,30 @@ h6,
 }
 
 .edu-section-title {
-  font-size: 1.12rem;
-  letter-spacing: 0.12em;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif, SimSun, "Songti SC", "Microsoft YaHei";
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: normal;
   color: #005239;
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  text-transform: none;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 0;
+  line-height: normal;
 }
 
-.edu-divider {
-  border-top: 2px solid #005239;
-  margin: 0.25rem 0 1rem 0;
+.edu-divider,
+.home-divider {
+  display: block;
+  border: none;
+  background-image: url("/images/divider.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  height: 3px;
+  width: 408px;
+  max-width: 100%;
+  margin: 0 0 20px 0;
+  padding: 0;
 }
 
 .edu-item {
@@ -135,16 +196,20 @@ h6,
 }
 
 .home-section-title {
-  font-size: 1.12rem;
-  letter-spacing: 0.12em;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif, SimSun, "Songti SC", "Microsoft YaHei";
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: normal;
   color: #005239;
-  text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  text-transform: none;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 0;
+  line-height: normal;
 }
 
 .home-divider {
-  border-top: 2px solid #005239;
-  margin: 0.25rem 0 1rem 0;
+  /* styles unified with .edu-divider above */
 }
 
 .home-news-scroll {
@@ -220,6 +285,7 @@ h6,
   .edu-meta { font-size: 0.88rem; }
   .edu-note { font-size: 0.85rem; }
   .edu-logo { width: 44px; height: 44px; }
-  .home-section-title { font-size: 1rem; }
+  .home-section-title,
+  .edu-section-title { font-size: 22px; }
   .home-news-scroll .news-line { grid-template-columns: 6.5rem 1fr; column-gap: 0.28rem; }
 }
