@@ -98,11 +98,57 @@ h6,
   margin-right: 0.28em;
 }
 
+.about-row {
+  display: flex;
+  align-items: stretch;
+  gap: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-text p:last-child {
+  margin-bottom: 0;
+}
+
 .home-profile {
-  float: right;
-  width: min(240px, 30%);
-  margin-left: 2rem;
-  margin-top: 0.25rem;
+  width: min(240px, 32%);
+  flex: 0 0 min(240px, 32%);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.home-profile figure {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 168px;
+  margin: 0 0 0.45rem 0;
+  overflow: hidden;
+}
+
+.home-profile img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+}
+
+.home-profile .more-info p {
+  margin-bottom: 0.12rem;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: rgba(0, 0, 0, 0.72);
+}
+
+.home-profile .more-info p:last-child {
+  margin-bottom: 0;
 }
 
 .about-section {
@@ -114,10 +160,19 @@ h6,
 }
 
 @media (max-width: 768px) {
+  .about-row {
+    flex-direction: column;
+  }
+
   .home-profile {
-    float: none;
     width: min(340px, 100%);
-    margin: 0 auto 1rem auto;
+    flex-basis: auto;
+    margin: 0 auto 0.5rem auto;
+    order: -1;
+  }
+
+  .home-profile figure {
+    height: 280px;
   }
 }
 
