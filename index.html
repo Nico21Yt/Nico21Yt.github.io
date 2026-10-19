@@ -1,233 +1,232 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Yitao Xu's personal website</title>
-    <meta name="author" content="Yitao Xu 徐奕涛">
-    <meta name="description" content="Master student at Georgia Tech focusing on multimodal fusion and trustworthy LLMs.">
-    <meta name="keywords" content="Yitao Xu, Georgia Tech, multimodal, trustworthy LLM">
-    <link rel="shortcut icon" href="/assets/img/logo.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/libs/mdb/mdb.min.css">
-    <link defer rel="stylesheet" type="text/css" href="/assets/libs/google_fonts/google-fonts.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/custom-typography.css?v=20260826f">
-    <link rel="stylesheet" href="/assets/css/custom-link-color.css?v=20260417">
-    <link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yitao Xu</title>
+    <meta
+      name="description"
+      content="Yitao Xu is a CS PhD student at George Mason University working on mechanistic interpretability, trustworthy LLMs, and AI safety."
+    />
+    <meta name="author" content="Yitao Xu" />
+    <link rel="shortcut icon" href="/assets/img/logo.svg?v=3" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #ffffff;
+        --ink: #1f1d1b;
+        --muted: #6f6f6c;
+        --accent: #8a3b2a;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Source Serif 4", Georgia, serif;
+        font-size: 17.5px;
+        line-height: 1.7;
+      }
+      main {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 84px 24px 72px;
+      }
+      header {
+        margin-bottom: 24px;
+      }
+      h1 {
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+      }
+      .contact {
+        margin-top: 14px;
+        font-size: 15px;
+      }
+      .contact .sep {
+        color: #c2c2be;
+        margin: 0 4px;
+      }
+      a {
+        color: inherit;
+        text-decoration: underline;
+        text-decoration-color: #c9c9c4;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+      a:hover {
+        color: var(--accent);
+        text-decoration-color: var(--accent);
+      }
+      section {
+        margin-top: 48px;
+      }
+      h2 {
+        font-variant-caps: all-small-caps;
+        font-weight: 500;
+        font-size: 19px;
+        letter-spacing: 0.14em;
+        color: var(--muted);
+        margin-bottom: 18px;
+      }
+      p + p {
+        margin-top: 14px;
+      }
+      .about-list {
+        padding-left: 1.2em;
+      }
+      .about-list li::marker {
+        color: var(--muted);
+      }
+      .about-list li + li {
+        margin-top: 10px;
+      }
+      .pub + .pub {
+        margin-top: 36px;
+      }
+      .pub-title {
+        font-weight: 600;
+      }
+      .pub-meta {
+        color: var(--muted);
+        margin-top: 2px;
+      }
+      .pub-desc {
+        margin-top: 10px;
+      }
+      .pub-icons {
+        white-space: nowrap;
+        margin-left: 4px;
+      }
+      .pub-icons a {
+        text-decoration: none;
+        color: var(--muted);
+        margin-left: 7px;
+      }
+      .pub-icons a:hover {
+        color: var(--accent);
+      }
+      .pub-icons svg {
+        width: 15px;
+        height: 15px;
+        vertical-align: -1.5px;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm" role="navigation">
-        <div class="container">
-          <a class="navbar-brand" href="/">Yitao Xu<span class="name-zh">（徐奕涛）</span></a>
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-              <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="/reading/">Reading</a></li>
-              <li class="nav-item"><a class="nav-link" href="/misc/">Misc</a></li>
-            </ul>
-          </div>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="icon-paper" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+          />
+          <polyline points="14 2 14 8 20 8" />
+          <line x1="16" y1="13" x2="8" y2="13" />
+          <line x1="16" y1="17" x2="8" y2="17" />
+        </g>
+      </symbol>
+      <symbol id="icon-globe" viewBox="0 0 24 24">
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="10" />
+          <line x1="2" y1="12" x2="22" y2="12" />
+          <path
+            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+          />
+        </g>
+      </symbol>
+    </svg>
+    <main>
+      <header>
+        <h1>Yitao Xu</h1>
+        <p class="contact">
+          <a href="mailto:yxu30@gmu.edu">Email</a
+          ><span class="sep">·</span>
+          <a href="https://github.com/Nico21Yt" target="_blank">GitHub</a
+          ><span class="sep">·</span>
+          <a href="https://www.linkedin.com/in/yitaoxu20/" target="_blank"
+            >LinkedIn</a
+          >
+        </p>
+      </header>
+
+      <section>
+        <h2>About</h2>
+        <ul class="about-list">
+          <li>
+            I'm a CS PhD student at
+            <a href="https://cs.gmu.edu/" target="_blank">George Mason University</a>,
+            advised by
+            <a href="https://ziyuyao.org/" target="_blank">Dr. Ziyu Yao</a>
+          </li>
+          <li>
+            Before that, I did my M.S. at
+            <a href="https://www.gatech.edu/" target="_blank">Georgia Tech</a>
+            and my B.Sc. at the
+            <a href="https://www.liverpool.ac.uk" target="_blank">University of Liverpool</a>
+          </li>
+          <li>
+            I'm interested in mechanistic interpretability, explainable AI,
+            trustworthy large language models, and AI safety
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Selected Work</h2>
+
+        <div class="pub">
+          <p class="pub-title">
+            <a href="https://arxiv.org/abs/2601.03425" target="_blank"
+              >The Illusion of Specialization: Unveiling the Domain-Invariant
+              “Standing Committee” in Mixture-of-Experts Models</a
+            ><span class="pub-icons"
+              ><a
+                href="https://arxiv.org/pdf/2601.03425"
+                target="_blank"
+                title="Paper"
+                aria-label="Paper"
+                ><svg><use href="#icon-paper" /></svg></a
+              ><a
+                href="https://arxiv.org/abs/2601.03425"
+                target="_blank"
+                title="arXiv"
+                aria-label="arXiv"
+                ><svg><use href="#icon-globe" /></svg></a
+            ></span>
+          </p>
+          <p class="pub-meta">
+            ACL 2026 · co-first author with Yan Wang and Nanhan Shen, with
+            Jinyan Su, Jimin Huang, and Zining Zhu
+          </p>
+          <p class="pub-desc">
+            We introduce CommitteeAudit and show that routing in
+            Mixture-of-Experts models is dominated by a domain-invariant
+            “Standing Committee” of experts, challenging the common assumption
+            of strong domain specialization.
+          </p>
         </div>
-      </nav>
-    </header>
-
-    <div class="container mt-3" role="main">
-      <div class="post">
-        <article>
-          <div class="home-section about-section">
-            <div class="home-section-title">About Me</div>
-            <div class="home-divider"></div>
-          </div>
-          <div class="about-row">
-            <div class="about-text">
-              <p>
-                Hello! I am Yitao Xu, an incoming PhD student in Computer Science at
-                <a href="https://cs.gmu.edu/" rel="external nofollow noopener" target="_blank"><img src="/assets/img/logos/mason.png" class="inline-logo" alt="GMU logo">George Mason University</a>,
-                advised by Prof.
-                <a href="https://ziyuyao.org/" rel="external nofollow noopener" target="_blank">Ziyu Yao</a>.
-                Before joining GMU, I studied
-                <a href="https://ece.gatech.edu/" rel="external nofollow noopener" target="_blank">Electrical and Computer Engineering</a>
-                at
-                <a href="https://www.gatech.edu/" rel="external nofollow noopener" target="_blank"><img src="/assets/img/logos/gatech.png" class="inline-logo" alt="Georgia Tech logo">Georgia Tech</a>
-                and received my bachelor's degree in Computer Science from the
-                <a href="https://www.liverpool.ac.uk" rel="external nofollow noopener" target="_blank"><img src="/assets/img/logos/liverpool.svg" class="inline-logo" alt="University of Liverpool logo">University of Liverpool</a>.
-              </p>
-              <p>
-                My research focuses on mechanistic interpretability, explainable AI, trustworthy large language models, and AI safety.
-                I am especially interested in understanding the internal mechanisms of language models, evaluating whether their reasoning
-                processes are faithful, and building AI systems that are more transparent and reliable.
-              </p>
-              <p>
-                Outside of research, I enjoy photography and road cycling.
-              </p>
-            </div>
-            <div class="profile home-profile">
-              <figure>
-                <img src="/assets/img/2026.jpg?v=crop80r" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="Yitao Xu in Georgia Tech graduation regalia" loading="eager">
-              </figure>
-              <div class="more-info">
-                <p>mail: yxu30 AT gmu DOT edu</p>
-                <p>addr: Research Hall, George Mason University, Fairfax, VA 22030</p>
-              </div>
-            </div>
-          </div>
-
-            <div class="edu-section" style="display:none" aria-hidden="true">
-              <div class="edu-section-title">Education</div>
-              <div class="edu-divider"></div>
-
-              <div class="edu-item">
-                <img src="/assets/img/edu-logos/gmu_logo.png" class="edu-logo" alt="George Mason University logo">
-                <div>
-                  <div class="edu-school">George Mason University</div>
-                  <div class="edu-degree">Incoming Ph.D. Student in Computer Science</div>
-                  <div class="edu-meta">Fairfax, VA, USA | Fall 2026 - </div>
-                </div>
-              </div>
-
-              <div class="edu-item">
-                <img src="/assets/img/edu-logos/gt_logo.png" class="edu-logo" alt="Georgia Tech logo">
-                <div>
-                  <div class="edu-school">Georgia Institute of Technology</div>
-                  <div class="edu-degree">M.S. in Electrical and Computer Engineering</div>
-                  <div class="edu-meta">Atlanta, GA, USA | 2024 - 2026</div>
-                </div>
-              </div>
-
-              <div class="edu-item">
-                <img src="/assets/img/edu-logos/UofLiverpool.png" class="edu-logo" alt="University of Liverpool logo">
-                <div>
-                  <div class="edu-school">University of Liverpool</div>
-                  <div class="edu-degree">B.Sc. in Computer Science</div>
-                  <div class="edu-meta">(Joint Programme) | 2020 - 2024</div>
-                </div>
-              </div>
-
-              <div class="edu-item">
-                <img src="/assets/img/edu-logos/JIAOTONG-LIVERPOOL-logo.png" class="edu-logo" alt="Xi'an Jiaotong-Liverpool University logo">
-                <div>
-                  <div class="edu-school">Xi'an Jiaotong-Liverpool University</div>
-                  <div class="edu-degree">B.Sc. in Computer Science</div>
-                  <div class="edu-meta">Suzhou, China | 2020 - 2024</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="home-section">
-              <div class="home-section-title">News</div>
-              <div class="home-divider"></div>
-            </div>
-            <div class="news home-news-scroll" aria-label="Recent news">
-              <p class="news-line">
-                <span class="news-date">08/2026</span>
-                <span class="news-text">Graduated with an M.S. in Electrical and Computer Engineering from <a href="https://www.gatech.edu/" rel="external nofollow noopener" target="_blank">Georgia Tech</a>, and will begin my Ph.D. in Computer Science at <a href="https://cs.gmu.edu/" rel="external nofollow noopener" target="_blank">George Mason University</a> in Fall 2026, advised by Prof. <a href="https://ziyuyao.org/" rel="external nofollow noopener" target="_blank">Ziyu Yao</a>.</span>
-              </p>
-              <p class="news-line">
-                <span class="news-date">04/2026</span>
-                <span class="news-text">My first leading project was accepted to ACL 26' as a co-first author.</span>
-              </p>
-              <p class="news-line">
-                <span class="news-date">07/2024</span>
-                <span class="news-text">Graduated in Information and Computing Science from the University of Liverpool and Xi'an Jiaotong-Liverpool University, and said goodbye to <a href="https://en.wikipedia.org/wiki/Suzhou" rel="external nofollow noopener" target="_blank">Suzhou</a> after four unforgettable years.</span>
-              </p>
-            </div>
-
-            <div class="home-section">
-              <div class="home-section-title">Selected Publications</div>
-              <div class="home-divider"></div>
-            </div>
-            <div class="publications">
-              <ol class="bibliography">
-                <li>
-                  <div class="row">
-                    <div class="col col-sm-2 abbr">
-                      <abbr class="badge rounded w-100" style="background-color:#0d3b66">
-                        ACL 26'
-                      </abbr>
-                      <figure class="mt-2">
-                        <picture>
-                          <img src="/assets/img/papers/AuditMoE.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="AuditMoE.png" data-zoomable loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-                        </picture>
-                      </figure>
-                    </div>
-                    <div id="xu2026illusionspecialization" class="col-sm-8">
-                      <div class="title">
-                        The Illusion of Specialization: Unveiling the Domain-Invariant "Standing Committee" in Mixture-of-Experts Models
-                      </div>
-                      <div class="author"><a href="https://medicine.yale.edu/profile/yan-wang-yw937/" rel="external nofollow noopener" target="_blank">Yan Wang</a><sup>*</sup>, <em>Yitao Xu<sup>*</sup></em>, Nanhan Shen<sup>*</sup>, <a href="https://jinyansu1.github.io/" rel="external nofollow noopener" target="_blank">Jinyan Su</a>, <a href="https://scholar.google.com/citations?user=SnQ_CycAAAAJ&amp;hl=zh-CN" rel="external nofollow noopener" target="_blank">Jimin Huang</a>, <a href="https://ecailab.org/" rel="external nofollow noopener" target="_blank">Zining Zhu</a></div>
-                      <div class="periodical">Accepted to ACL 26', 2026</div>
-                      <div class="links">
-                        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-                        <a href="https://arxiv.org/pdf/2601.03425" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-                        <a href="https://arxiv.org/abs/2601.03425" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-                        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-                      </div>
-                      <div class="edu-note" style="margin-top: 0.4rem;">
-                        * indicates equal contribution.
-                      </div>
-
-                      <div class="abstract hidden">
-                        <p>We introduce COMMITTEEAUDIT and show that routing in Mixture-of-Experts models is dominated by a domain-invariant "Standing Committee," challenging the common assumption of strong domain specialization.</p>
-                      </div>
-
-                      <div class="bibtex hidden">
-                        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">@inproceedings{wang2026illusion,
-  title={The Illusion of Specialization: Unveiling the Domain-Invariant "Standing Committee" in Mixture-of-Experts Models},
-  author={Wang, Yan and Xu, Yitao and Shen, Nanhan and Su, Jinyan and Huang, Jimin and Zhu, Zining},
-  booktitle={Proceedings of the ACL Main Conference},
-  year={2026},
-  url={https://arxiv.org/abs/2601.03425}
-}</code></pre></figure>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ol>
-            </div>
-
-            <div class="home-section">
-              <div class="home-section-title">Service</div>
-              <div class="home-divider"></div>
-            </div>
-            <div class="home-service-list">
-              <p class="service-line">Reviewer, <a href="https://cikm2026.org/" rel="external nofollow noopener" target="_blank">ACM International Conference on Information and Knowledge Management (CIKM)</a></p>
-              <p class="service-line">Reviewer, <a href="https://aclrollingreview.org/" rel="external nofollow noopener" target="_blank">ACL Rolling Review (ARR)</a></p>
-            </div>
-
-          <div class="social">
-            <div class="contact-icons">
-              <a href="mailto:yxu30@gmu.edu" title="email"><i class="fa-solid fa-envelope"></i></a>
-              <a href="https://github.com/Nico21Yt" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/yitaoxu20/" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-          </div>
-
-          <div id="clustrmaps-container" style="display:none;max-width: 360px; margin: 20px auto 0; text-align: center;">
-            <!-- visitor map hidden -->
-          </div>
-        </article>
-      </div>
-    </div>
-
-    <footer class="fixed-bottom" role="contentinfo">
-      <div class="container mt-0">© Copyright 2026 Yitao Xu.</div>
-    </footer>
-
-    <script src="/assets/libs/jquery/jquery.min.js"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/libs/mdb/mdb.min.js"></script>
-    <script src="/assets/js/no_defer.js"></script>
-    <script defer src="/assets/js/common.js"></script>
-    <script src="/assets/js/vanilla-back-to-top.min.js"></script>
-    <script>
-      addBackToTop();
-    </script>
+      </section>
+    </main>
   </body>
 </html>
