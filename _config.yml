@@ -1,14 +1,14 @@
 # Basic Information 
-title: Yitao XU (徐奕涛)
-position: Master Student
-affiliation: School of Electrical and Computer Engineering, Georgia Tech
+title: Yitao Xu
+position: PhD Student
+affiliation: Department of Computer Science, George Mason University
 email: yxu30@gmu.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Yitao Xu, George Mason University, mechanistic interpretability, trustworthy LLM, AI safety
+description: Yitao Xu is a CS PhD student at George Mason University working on mechanistic interpretability, trustworthy LLMs, and AI safety.
+canonical: https://nico21yt.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.

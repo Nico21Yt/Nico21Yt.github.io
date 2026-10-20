@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Nico21Yt.github.io/sitemap.xml
+Sitemap: https://nico21yt.github.io/sitemap.xml
