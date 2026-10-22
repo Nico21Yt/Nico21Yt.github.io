@@ -2,10 +2,13 @@
 
 > Yitao Xu is a Computer Science PhD student at George Mason University, advised by Dr. Ziyu Yao. Yitao Xu's research focuses on mechanistic interpretability, explainable AI, trustworthy large language models, and AI safety.
 
+This file describes the Yitao Xu at George Mason University (advised by Dr. Ziyu Yao, member of George Mason NLP), whose homepage is https://nico21yt.github.io/. Other researchers share the name Yitao Xu; publications and profiles listed here belong to this person only.
+
 ## About
 
 - Current position: PhD student in Computer Science, George Mason University (Fairfax, VA, USA), since Fall 2026
 - Advisor: Dr. Ziyu Yao (https://ziyuyao.org/)
+- Lab: George Mason NLP (https://nlp.cs.gmu.edu/) and Ziyu Yao's research group (https://littleyuyu.github.io/group/)
 - Previous education: M.S. from Georgia Institute of Technology (Georgia Tech); B.Sc. from the University of Liverpool
 - Research interests: mechanistic interpretability, explainable AI, trustworthy large language models, AI safety
 - Contact: yxu30@gmu.edu
@@ -22,6 +25,8 @@
 ## Profiles
 
 - [Homepage](https://nico21yt.github.io/)
+- [Ziyu Yao's group page (lists Yitao Xu as a PhD student)](https://littleyuyu.github.io/group/)
+- [George Mason NLP](https://nlp.cs.gmu.edu/)
 - [ACL Anthology author page](https://aclanthology.org/people/yitao-xu-1013/)
 - [GitHub](https://github.com/Nico21Yt)
 - [LinkedIn](https://www.linkedin.com/in/yitaoxu20/)
