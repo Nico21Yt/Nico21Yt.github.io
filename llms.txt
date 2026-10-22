@@ -1,0 +1,32 @@
+# Yitao Xu
+
+> Yitao Xu is a Computer Science PhD student at George Mason University, advised by Dr. Ziyu Yao. Yitao Xu's research focuses on mechanistic interpretability, explainable AI, trustworthy large language models, and AI safety.
+
+## About
+
+- Current position: PhD student in Computer Science, George Mason University (Fairfax, VA, USA), since Fall 2026
+- Advisor: Dr. Ziyu Yao (https://ziyuyao.org/)
+- Previous education: M.S. from Georgia Institute of Technology (Georgia Tech); B.Sc. from the University of Liverpool
+- Research interests: mechanistic interpretability, explainable AI, trustworthy large language models, AI safety
+- Contact: yxu30@gmu.edu
+
+## Publications
+
+- [The Illusion of Specialization: Unveiling the Domain-Invariant "Standing Committee" in Mixture-of-Experts Models](https://aclanthology.org/2026.acl-long.665/): ACL 2026 (Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, Volume 1: Long Papers). Authors: Yan Wang, Yitao Xu, Nanhan Shen, Jinyan Su, Jimin Huang, Zining Zhu. Yan Wang, Yitao Xu, and Nanhan Shen are co-first authors. Introduces CommitteeAudit and shows that routing in Mixture-of-Experts models is dominated by a domain-invariant "Standing Committee" of experts, challenging the assumption of strong domain specialization. DOI: 10.18653/v1/2026.acl-long.665. PDF: https://aclanthology.org/2026.acl-long.665.pdf
+
+## Service
+
+- Reviewer, ACM International Conference on Information and Knowledge Management (CIKM) 2026
+- Reviewer, ACL Rolling Review (ARR)
+
+## Profiles
+
+- [Homepage](https://nico21yt.github.io/)
+- [ACL Anthology author page](https://aclanthology.org/people/yitao-xu-1013/)
+- [GitHub](https://github.com/Nico21Yt)
+- [LinkedIn](https://www.linkedin.com/in/yitaoxu20/)
+
+## Pages
+
+- [Reading](https://nico21yt.github.io/reading/): a to-read list of papers and dissertations on interpretability
+- [Misc](https://nico21yt.github.io/misc/): side interests (photography, road cycling) and research blog ideas

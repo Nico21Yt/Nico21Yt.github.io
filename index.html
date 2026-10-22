@@ -21,30 +21,76 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Yitao Xu",
-        "alternateName": "徐奕涛",
-        "url": "https://nico21yt.github.io/",
-        "email": "mailto:yxu30@gmu.edu",
-        "jobTitle": "PhD Student in Computer Science",
-        "affiliation": {
-          "@type": "CollegeOrUniversity",
-          "name": "George Mason University",
-          "url": "https://cs.gmu.edu/"
-        },
-        "alumniOf": [
-          { "@type": "CollegeOrUniversity", "name": "Georgia Institute of Technology" },
-          { "@type": "CollegeOrUniversity", "name": "University of Liverpool" }
-        ],
-        "knowsAbout": [
-          "Mechanistic interpretability",
-          "Explainable AI",
-          "Trustworthy large language models",
-          "AI safety"
-        ],
-        "sameAs": [
-          "https://github.com/Nico21Yt",
-          "https://www.linkedin.com/in/yitaoxu20/"
+        "@graph": [
+          {
+            "@type": "ProfilePage",
+            "@id": "https://nico21yt.github.io/#page",
+            "url": "https://nico21yt.github.io/",
+            "name": "Yitao Xu",
+            "dateModified": "2026-10-22",
+            "mainEntity": { "@id": "https://nico21yt.github.io/#person" }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://nico21yt.github.io/#person",
+            "name": "Yitao Xu",
+            "alternateName": "徐奕涛",
+            "url": "https://nico21yt.github.io/",
+            "email": "mailto:yxu30@gmu.edu",
+            "jobTitle": "PhD Student in Computer Science",
+            "description": "Yitao Xu is a CS PhD student at George Mason University, advised by Dr. Ziyu Yao, working on mechanistic interpretability, explainable AI, trustworthy large language models, and AI safety.",
+            "affiliation": {
+              "@type": "CollegeOrUniversity",
+              "name": "George Mason University",
+              "url": "https://cs.gmu.edu/"
+            },
+            "alumniOf": [
+              { "@type": "CollegeOrUniversity", "name": "Georgia Institute of Technology", "url": "https://www.gatech.edu/" },
+              { "@type": "CollegeOrUniversity", "name": "University of Liverpool", "url": "https://www.liverpool.ac.uk/" }
+            ],
+            "knowsAbout": [
+              "Mechanistic interpretability",
+              "Explainable AI",
+              "Trustworthy large language models",
+              "AI safety",
+              "Mixture-of-Experts models"
+            ],
+            "sameAs": [
+              "https://aclanthology.org/people/yitao-xu-1013/",
+              "https://github.com/Nico21Yt",
+              "https://www.linkedin.com/in/yitaoxu20/"
+            ]
+          },
+          {
+            "@type": "ScholarlyArticle",
+            "@id": "https://doi.org/10.18653/v1/2026.acl-long.665",
+            "headline": "The Illusion of Specialization: Unveiling the Domain-Invariant \"Standing Committee\" in Mixture-of-Experts Models",
+            "url": "https://aclanthology.org/2026.acl-long.665/",
+            "sameAs": [
+              "https://doi.org/10.18653/v1/2026.acl-long.665",
+              "https://arxiv.org/abs/2601.03425"
+            ],
+            "identifier": {
+              "@type": "PropertyValue",
+              "propertyID": "DOI",
+              "value": "10.18653/v1/2026.acl-long.665"
+            },
+            "datePublished": "2026",
+            "abstract": "We introduce CommitteeAudit and show that routing in Mixture-of-Experts models is dominated by a domain-invariant \"Standing Committee\" of experts, challenging the common assumption of strong domain specialization.",
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "name": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+            },
+            "publisher": { "@type": "Organization", "name": "Association for Computational Linguistics" },
+            "author": [
+              { "@type": "Person", "name": "Yan Wang" },
+              { "@id": "https://nico21yt.github.io/#person" },
+              { "@type": "Person", "name": "Nanhan Shen" },
+              { "@type": "Person", "name": "Jinyan Su" },
+              { "@type": "Person", "name": "Jimin Huang" },
+              { "@type": "Person", "name": "Zining Zhu" }
+            ]
+          }
         ]
       }
     </script>
