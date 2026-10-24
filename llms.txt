@@ -28,6 +28,7 @@ This file describes the Yitao Xu at George Mason University (advised by Dr. Ziyu
 - [Ziyu Yao's group page (lists Yitao Xu as a PhD student)](https://littleyuyu.github.io/group/)
 - [George Mason NLP](https://nlp.cs.gmu.edu/)
 - [ACL Anthology author page](https://aclanthology.org/people/yitao-xu-1013/)
+- [Google Scholar](https://scholar.google.com/citations?user=b_OAtu0AAAAJ)
 - [GitHub](https://github.com/Nico21Yt)
 - [LinkedIn](https://www.linkedin.com/in/yitaoxu20/)
 
