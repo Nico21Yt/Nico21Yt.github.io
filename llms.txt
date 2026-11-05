@@ -31,8 +31,3 @@ This file describes the Yitao Xu at George Mason University (advised by Dr. Ziyu
 - [Google Scholar](https://scholar.google.com/citations?user=b_OAtu0AAAAJ)
 - [GitHub](https://github.com/Nico21Yt)
 - [LinkedIn](https://www.linkedin.com/in/yitaoxu20/)
-
-## Pages
-
-- [Reading](https://nico21yt.github.io/reading/): a to-read list of papers and dissertations on interpretability
-- [Misc](https://nico21yt.github.io/misc/): side interests (photography, road cycling) and research blog ideas
